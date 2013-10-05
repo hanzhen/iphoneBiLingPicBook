@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Key</key>
+			<string>L1Choice</string>
+			<key>Title</key>
+			<string>L1 Language</string>
+			<key>DefaultValue</key>
+			<string>DEFAULT</string>
+			<key>Titles</key>
+			<array>
+				<string>Default</string>
+				<string>English</string>
+				<string>German</string>
+				<string>Spanish</string>
+				<string>French</string>
+				<string>Chinese</string>
+				<string>Italian</string>
+				<string>Korean</string>
+				<string>Japanese</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>EN</string>
+				<string>DE</string>
+				<string>ES</string>
+				<string>FR</string>
+				<string>CN</string>
+				<string>IT</string>
+				<string>KR</string>
+				<string>JP</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Key</key>
+			<string>L2Choice</string>
+			<key>Title</key>
+			<string>L2 Language</string>
+			<key>DefaultValue</key>
+			<string>DEFAULT</string>
+			<key>Titles</key>
+			<array>
+				<string>Default</string>
+				<string>English</string>
+				<string>German</string>
+				<string>Spanish</string>
+				<string>French</string>
+				<string>Chinese</string>
+				<string>Italian</string>
+				<string>Korean</string>
+				<string>Japanese</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>DEFAULT</string>
+				<string>EN</string>
+				<string>DE</string>
+				<string>ES</string>
+				<string>FR</string>
+				<string>CN</string>
+				<string>IT</string>
+				<string>KR</string>
+				<string>JP</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>L1 Romanization </string>
+			<key>Key</key>
+			<string>L1RChoice</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>L2 Romanization</string>
+			<key>Key</key>
+			<string>L2RChoice</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
